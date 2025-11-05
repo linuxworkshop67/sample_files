@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bulma One-Page Site</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="#">MySite</a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-end">
+      <a class="navbar-item" href="#home">Home</a>
+      <a class="navbar-item" href="#features">Features</a>
+      <a class="navbar-item" href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero is-primary is-bold" id="home">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">Welcome to MySite</h1>
+      <h2 class="subtitle">A one-page site using Bulma</h2>
+      <a class="button is-light" href="#features">Explore Features</a>
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="section" id="features">
+  <div class="container">
+    <h2 class="title">Features</h2>
+    <div class="columns">
+      <div class="column">
+        <figure class="image is-4by3">
+          <img src="https://via.placeholder.com/300x200" alt="Placeholder">
+        </figure>
+        <h4 class="title is-5">Modern</h4>
+        <p>Bulma is a modern CSS framework based on Flexbox.</p>
+      </div>
+      <div class="column">
+        <figure class="image is-4by3">
+          <img src="https://via.placeholder.com/300x200" alt="Placeholder">
+        </figure>
+        <h4 class="title is-5">Responsive</h4>
+        <p>It's fully responsive out of the box.</p>
+      </div>
+      <div class="column">
+        <figure class="image is-4by3">
+          <img src="https://via.placeholder.com/300x200" alt="Placeholder">
+        </figure>
+        <h4 class="title is-5">Clean</h4>
+        <p>Minimal, semantic classes make your HTML clean.</p>
+      </div>
+    </div>
+
+    <!-- Common Elements -->
+    <h3 class="title is-4">HTML Elements</h3>
+    <ul>
+      <li>Unordered item 1</li>
+      <li>Unordered item 2</li>
+    </ul>
+    <ol>
+      <li>Ordered item 1</li>
+      <li>Ordered item 2</li>
+    </ol>
+
+    <table class="table is-striped is-fullwidth">
+      <thead>
+        <tr><th>#</th><th>Name</th><th>Email</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Alice</td><td>alice@example.com</td></tr>
+        <tr><td>2</td><td>Bob</td><td>bob@example.com</td></tr>
+      </tbody>
+    </table>
+
+    <blockquote class="content">
+      <p>“Bulma makes building websites fast and fun.”</p>
+    </blockquote>
+  </div>
+</section>
+
+<!-- Contact Form -->
+<section class="section" id="contact">
+  <div class="container">
+    <h2 class="title">Contact Us</h2>
+    <form>
+      <div class="field">
+        <label class="label">Name</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Your Name">
+        </div>
+      </div>
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control">
+          <input class="input" type="email" placeholder="you@example.com">
+        </div>
+      </div>
+      <div class="field">
+        <label class="label">Message</label>
+        <div class="control">
+          <textarea class="textarea" placeholder="Your message here..."></textarea>
+        </div>
+      </div>
+      <div class="control">
+        <button class="button is-primary">Send</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="content has-text-centered">
+    &copy; 2025 MySite. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
+

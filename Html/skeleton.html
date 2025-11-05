@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skeleton One-Page Site</title>
+
+  <!-- Skeleton CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+
+  <!-- Optional: Add some spacing/styling -->
+  <style>
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    nav {
+      background: #333;
+      color: white;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      margin-right: 1rem;
+      text-decoration: none;
+    }
+    header {
+      background: #0074D9;
+      color: white;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 4rem;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="container">
+    <div class="row">
+      <div class="six columns">
+        <strong>MySite</strong>
+      </div>
+      <div class="six columns" style="text-align: right;">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home">
+    <h1>Welcome to MySite</h1>
+    <p>A one-page site using Skeleton CSS</p>
+    <a class="button" href="#features">Explore Features</a>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="container">
+    <h2>Features</h2>
+    <div class="row">
+      <div class="one-third column">
+        <img src="https://via.placeholder.com/300x200" alt="Placeholder">
+        <h5>Lightweight</h5>
+        <p>Skeleton is only ~400 lines of code and focuses on the essentials.</p>
+      </div>
+      <div class="one-third column">
+        <img src="https://via.placeholder.com/300x200" alt="Placeholder">
+        <h5>Responsive</h5>
+        <p>Comes with a mobile-first 12-column grid for easy layouts.</p>
+      </div>
+      <div class="one-third column">
+        <img src="https://via.placeholder.com/300x200" alt="Placeholder">
+        <h5>Clean</h5>
+        <p>Minimal styling that doesn't get in your way.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Common HTML Elements -->
+  <section class="container">
+    <h2>Common HTML Elements</h2>
+    
+    <!-- Lists -->
+    <h5>Lists</h5>
+    <ul>
+      <li>Unordered item 1</li>
+      <li>Unordered item 2</li>
+    </ul>
+    <ol>
+      <li>Ordered item 1</li>
+      <li>Ordered item 2</li>
+    </ol>
+
+    <!-- Table -->
+    <h5>Table</h5>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Alice</td>
+          <td>alice@example.com</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Bob</td>
+          <td>bob@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Inline text elements -->
+    <h5>Text Formatting</h5>
+    <p>This is <strong>bold</strong>, <em>italic</em>, and <a href="#">a link</a>.</p>
+
+    <!-- Blockquote -->
+    <blockquote>
+      “This is a blockquote in Skeleton.”
+    </blockquote>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <form>
+      <div class="row">
+        <div class="six columns">
+          <label for="name">Name</label>
+          <input class="u-full-width" type="text" placeholder="Your Name" id="name">
+        </div>
+        <div class="six columns">
+          <label for="email">Email</label>
+          <input class="u-full-width" type="email" placeholder="your@email.com" id="email">
+        </div>
+      </div>
+      <label for="message">Message</label>
+      <textarea class="u-full-width" placeholder="Hi there..." id="message"></textarea>
+      <input class="button-primary" type="submit" value="Submit">
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 MySite. All rights reserved.
+  </footer>
+
+</body>
+</html>
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pico One-Page Site</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="container-fluid">
+  <ul>
+    <li><strong>MySite</strong></li>
+  </ul>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<header class="container" id="home">
+  <h1>Welcome to MySite</h1>
+  <p>A one-page site using Pico.css</p>
+  <a href="#features" role="button">Explore Features</a>
+</header>
+
+<!-- Features -->
+<main class="container" id="features">
+  <h2>Features</h2>
+  <div class="grid">
+    <article>
+      <img src="https://via.placeholder.com/300x200" alt="Placeholder">
+      <h3>Minimal</h3>
+      <p>Pico uses native HTML and minimal classes.</p>
+    </article>
+    <article>
+      <img src="https://via.placeholder.com/300x200" alt="Placeholder">
+      <h3>Semantic</h3>
+      <p>No need for complex class names or wrappers.</p>
+    </article>
+    <article>
+      <img src="https://via.placeholder.com/300x200" alt="Placeholder">
+      <h3>Dark Mode</h3>
+      <p>Automatic light/dark mode support.</p>
+    </article>
+  </div>
+
+  <h3>Common HTML Elements</h3>
+  <ul>
+    <li>Unordered item</li>
+    <li>Another item</li>
+  </ul>
+  <ol>
+    <li>First item</li>
+    <li>Second item</li>
+  </ol>
+
+  <table>
+    <thead>
+      <tr><th>#</th><th>Name</th><th>Email</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Alice</td><td>alice@example.com</td></tr>
+      <tr><td>2</td><td>Bob</td><td>bob@example.com</td></tr>
+    </tbody>
+  </table>
+
+  <blockquote>
+    “This site uses Pico.css — a minimalist framework that styles semantic HTML beautifully.”
+  </blockquote>
+</main>
+
+<!-- Contact -->
+<section class="container" id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" placeholder="Jane Doe" required>
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" placeholder="jane@example.com" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write something..." required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="container">
+  <small>&copy; 2025 MySite</small>
+</footer>
+
+</body>
+</html>
+

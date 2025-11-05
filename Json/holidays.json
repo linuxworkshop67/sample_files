@@ -1,0 +1,80 @@
+[
+  {
+    "name": "New Year's Day",
+    "date": "2025-01-01",
+    "description": "Celebrates the beginning of the Gregorian calendar year.",
+    "established_year": 1870,
+    "established_by": "President Ulysses S. Grant"
+  },
+  {
+    "name": "Martin Luther King Jr. Day",
+    "date": "2025-01-20",
+    "description": "Honors civil rights leader Dr. Martin Luther King Jr.",
+    "established_year": 1983,
+    "established_by": "President Ronald Reagan"
+  },
+  {
+    "name": "Washington's Birthday",
+    "date": "2025-02-17",
+    "description": "Commemorates the birth of George Washington, the first U.S. president.",
+    "established_year": 1879,
+    "established_by": "President Rutherford B. Hayes"
+  },
+  {
+    "name": "Memorial Day",
+    "date": "2025-05-26",
+    "description": "Honors military personnel who have died in service.",
+    "established_year": 1971,
+    "established_by": "President Richard Nixon"
+  },
+  {
+    "name": "Juneteenth National Independence Day",
+    "date": "2025-06-19",
+    "description": "Commemorates the end of slavery in the United States.",
+    "established_year": 2021,
+    "established_by": "President Joe Biden"
+  },
+  {
+    "name": "Independence Day",
+    "date": "2025-07-04",
+    "description": "Celebrates the adoption of the Declaration of Independence in 1776.",
+    "established_year": 1870,
+    "established_by": "President Ulysses S. Grant"
+  },
+  {
+    "name": "Labor Day",
+    "date": "2025-09-01",
+    "description": "Recognizes the contributions of American workers.",
+    "established_year": 1894,
+    "established_by": "President Grover Cleveland"
+  },
+  {
+    "name": "Columbus Day",
+    "date": "2025-10-13",
+    "description": "Commemorates Christopher Columbus's landing in the Americas.",
+    "established_year": 1937,
+    "established_by": "President Franklin D. Roosevelt"
+  },
+  {
+    "name": "Veterans Day",
+    "date": "2025-11-11",
+    "description": "Honors all U.S. military veterans.",
+    "established_year": 1954,
+    "established_by": "President Dwight D. Eisenhower"
+  },
+  {
+    "name": "Thanksgiving Day",
+    "date": "2025-11-27",
+    "description": "Gives thanks for the harvest and blessings of the past year.",
+    "established_year": 1863,
+    "established_by": "President Abraham Lincoln"
+  },
+  {
+    "name": "Christmas Day",
+    "date": "2025-12-25",
+    "description": "Celebrates the birth of Jesus Christ.",
+    "established_year": 1870,
+    "established_by": "President Ulysses S. Grant"
+  }
+]
+
