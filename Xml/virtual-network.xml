@@ -1,0 +1,15 @@
+<network>
+  <name>example-net</name>
+  <uuid>aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee</uuid>
+
+  <forward mode="nat"/>
+  
+  <bridge name="virbr20" stp="on" delay="2"/>
+  
+  <ip address="192.168.50.1" netmask="255.255.255.0">
+    <dhcp>
+      <range start="192.168.50.10" end="192.168.50.200"/>
+    </dhcp>
+  </ip>
+</network>
+

@@ -1,0 +1,8 @@
+<pool type="dir">
+  <name>example-pool</name>
+  <uuid>99999999-8888-7777-6666-555555555555</uuid>
+  <target>
+    <path>/var/lib/libvirt/example-pool</path>
+  </target>
+</pool>
+
