@@ -1,0 +1,87 @@
+# ======================================================
+# Zsh Configuration - Safe Defaults
+# ======================================================
+
+# -------------------------
+# Enable Oh-My-Zsh if installed
+# -------------------------
+export ZSH="$HOME/.oh-my-zsh"
+if [ -d "$ZSH" ]; then
+    source $ZSH/oh-my-zsh.sh
+fi
+
+# -------------------------
+# Set the shell prompt
+# -------------------------
+# Green username@host, yellow current directory
+autoload -U colors && colors
+PROMPT="%{$fg[green]%}%n@%m %{$fg[yellow]%}%~%{$reset_color%} $ "
+
+# -------------------------
+# Editor
+# -------------------------
+export EDITOR=vim
+export VISUAL=vim
+
+# -------------------------
+# Path modifications
+# -------------------------
+export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+
+# -------------------------
+# Aliases
+# -------------------------
+alias ll='ls -lah'
+alias la='ls -A'
+alias l='ls -CF'
+alias grep='grep --color=auto'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias update='sudo apt update && sudo apt upgrade -y'
+
+# -------------------------
+# Prompt for sudo without losing env
+# -------------------------
+alias sudo='sudo -E'
+
+# -------------------------
+# Enable autocompletion and history
+# -------------------------
+autoload -U compinit
+compinit
+
+HISTSIZE=10000
+SAVEHIST=10000
+HISTFILE=~/.zsh_history
+
+setopt append_history          # Append history instead of overwriting
+setopt share_history           # Share history across terminals
+setopt autocd                  # Change dir just by typing its name
+setopt cdablevars              # Allow cd to change directories with variables
+
+# -------------------------
+# Useful functions
+# -------------------------
+mkcd() {
+    mkdir -p "$1"
+    cd "$1" || return
+}
+
+# -------------------------
+# Enable syntax highlighting if installed
+# -------------------------
+if [ -f /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
+    source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fi
+
+# -------------------------
+# Load any local aliases if exists
+# -------------------------
+if [ -f ~/.zsh_aliases ]; then
+    source ~/.zsh_aliases
+fi
+
+# -------------------------
+# End of .zshrc
+# -------------------------
+

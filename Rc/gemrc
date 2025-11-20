@@ -1,0 +1,21 @@
+# ~/.gemrc - User-specific RubyGems configuration
+
+# Do not install documentation for gems
+gem: --no-document
+
+# Automatically update sources
+:update_sources: true
+
+# Enable verbose output
+:verbose: true
+
+# Show backtrace on errors
+:backtrace: true
+
+# Increase bulk threshold for faster installs
+:bulk_threshold: 1000
+
+# Default gem sources
+:sources:
+  - https://rubygems.org/
+
